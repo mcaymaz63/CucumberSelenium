@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="114.516">
+    <testcase classname="US004_Parametre Kullanimi" name="TC01 Parametre Kullanimi" time="30.787">
+        <system-out><![CDATA[Given kullanici "https://www.hepsiburada.com" sayfasinda....................passed
+Then kullanici 3 saniye bekler..............................................passed
+When url'nin "hepsi" icerdigini test edelim.................................passed
+And sayfayi kapatir.........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US007 Scenario Outline Kullanimi" name="TC01 ConfigReader ile Scenario outline Kullanimi" time="9.883">
+        <system-out><![CDATA[Given kullanici "amazonUrl" sayfasina gider.................................passed
+Then kullanici 3 saniye bekler..............................................passed
+When url'nin "amazon" icerdigini test edelim................................passed
+And sayfayi kapatir.........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US007 Scenario Outline Kullanimi" name="TC01 ConfigReader ile Scenario outline Kullanimi 2" time="40.68">
+        <system-out><![CDATA[Given kullanici "faceUrl" sayfasina gider...................................passed
+Then kullanici 3 saniye bekler..............................................passed
+When url'nin "face" icerdigini test edelim..................................passed
+And sayfayi kapatir.........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US007 Scenario Outline Kullanimi" name="TC01 ConfigReader ile Scenario outline Kullanimi 3" time="8.295">
+        <system-out><![CDATA[Given kullanici "brcUrl" sayfasina gider....................................passed
+Then kullanici 3 saniye bekler..............................................passed
+When url'nin "blue" icerdigini test edelim..................................passed
+And sayfayi kapatir.........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US007 Scenario Outline Kullanimi" name="TC01 ConfigReader ile Scenario outline Kullanimi 4" time="24.488">
+        <system-out><![CDATA[Given kullanici "google" sayfasina gider....................................passed
+Then kullanici 3 saniye bekler..............................................passed
+When url'nin "google" icerdigini test edelim................................passed
+And sayfayi kapatir.........................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
